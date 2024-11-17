@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Header from "../components/header/Header";
 
 export default function Layout({ children }) {
@@ -5,7 +6,9 @@ export default function Layout({ children }) {
     <div className="layoutContainer">
       <div className="layout">
         <Header />
-        <main className="mainContent">{children}</main>
+        <main className="mainContent">
+          <Outlet />
+        </main>
       </div>
     </div>
   );

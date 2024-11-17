@@ -1,11 +1,8 @@
-import Layout from "./view/layouts/Layout";
+import { Router } from "./app/router/router";
+// import Layout from "./view/layouts/Layout";
 
 function App() {
-  return (
-    <>
-      <Layout />
-    </>
-  );
+  return <Router />;
 }
 
 export default App;
