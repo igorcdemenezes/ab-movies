@@ -1,19 +1,20 @@
 :root {
-  --purple-base: "#892CCD"
-  --purple-light: "#A85FDD"
-  --gray-100: "#0F0F1A"
-  --gray-200: "#131320"
-  --gray-300: "#1A1B2D"
-  --gray-400: "#45455F"
-  --gray-600: "#B5B6C9"
-  --gray-700: "E4E5EC"
-  --white: "#FFFFFF"
-  --error-base: "#D04048"
-  --error-light: "#F77980"
-  --input: 16px/24px 400;
-  --text-md: 16/160% 400;
-  --text-sm: 14px/160% 400;
-  --text-xs: 12px/160% 400;
+  --purple-base: #892ccd;
+  --purple-light: #a85fdd;
+  --gray-100: #0f0f1a;
+  --gray-200: #131320;
+  --gray-300: #1a1b2d;
+  --gray-400: #45455f;
+  --gray-500: #7a7b9f;
+  --gray-600: #b5b6c9;
+  --gray-700: #e4e5ec;
+  --white: #ffffff;
+  --error-base: #d04048;
+  --error-light: #f77980;
+  --input: 400 16px/24px "Nunito Sans", sans-serif;
+  --text-md: 400 16px/160% "Nunito Sans", sans-serif;
+  --text-sm: 400 14px/160% "Nunito Sans", sans-serif;
+  --text-xs: 400 12px/160% "Nunito Sans", sans-serif;
 }
 
 * {
@@ -21,6 +22,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-100);
 }
 
 ul {
@@ -32,4 +37,30 @@ img {
   max-width: 100%;
   display: block;
   object-fit: cover;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.layoutContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.layout {
+  max-width: 1366px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.mainContent {
+  border: 1px solid red;
+  flex: 1;
 }

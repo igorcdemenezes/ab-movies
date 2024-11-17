@@ -1,7 +1,9 @@
+import Layout from "./view/layouts/Layout";
+
 function App() {
   return (
     <>
-      <p>Olá</p>
+      <Layout />
     </>
   );
 }
