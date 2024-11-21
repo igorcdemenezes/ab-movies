@@ -61,6 +61,6 @@ a {
 }
 
 .mainContent {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   flex: 1;
 }
