@@ -1,4 +1,4 @@
-import { Router } from "./app/router/router";
+import { Router } from "./app/router/Router";
 // import Layout from "./view/layouts/Layout";
 
 function App() {

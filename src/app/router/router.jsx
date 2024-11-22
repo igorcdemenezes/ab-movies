@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../../view/layouts/Layout";
 import Home from "../../view/pages/home/home";
 import Movie from "../../view/pages/movie/Movie";
-import MyMovies from "../../view/pages/my-movies/MyMovies";
+import Explore from "../../view/pages/explore/Explore";
 
 export function Router() {
   return (
@@ -10,8 +10,8 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/movie" element={<Movie />} />
-          <Route path="/my-movies" element={<MyMovies />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/my-movies" element={<Movie />} />
         </Route>
       </Routes>
     </BrowserRouter>

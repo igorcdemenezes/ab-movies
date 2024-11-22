@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "./MyMovies.module.css";
+import styles from "./Explore.module.css";
 
 const MyMovies = () => {
   const [movies, setMovies] = useState([]);

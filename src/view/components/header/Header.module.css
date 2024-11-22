@@ -34,10 +34,52 @@
 
 .navExp {
   padding: 8px 12px 8px 12px;
+  display: flex;
+}
+
+.navExpLink {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 8px;
+}
+
+.popcornIcon {
+  width: 16.25px;
+  height: 16.25px;
+  color: #a85fdd;
+}
+
+.navMyMovies {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 8px;
+}
+
+.FilmSlateIcon {
+  width: 15px;
+  height: 15px;
 }
 
 .user {
   align-items: center;
   display: flex;
   gap: 12px;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--gray-300);
+}
+
+.logoutIcon {
+  width: 15px;
+  height: 15px;
+  color: var(--gray-500);
 }
